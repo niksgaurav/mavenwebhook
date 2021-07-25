@@ -80,12 +80,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://
 			</plugin>	
 			<!-- Set JDK Compiler Level -->
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+	<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
 					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
+				<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 			<!-- For Tomcat -->
