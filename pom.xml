@@ -97,6 +97,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://
 					<path>/CounterWebApp</path>
 				</configuration>
 			</plugin>
-		</plugins>
-	</build>
+</plugins>
+</build>
 </project>
